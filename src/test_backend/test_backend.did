@@ -1,0 +1,4 @@
+service : {
+  get_data_for_principal : (principal) -> (text) query;
+  set_data_for_principal : (principal, text) -> ();
+}
